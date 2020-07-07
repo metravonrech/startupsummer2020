@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 140.88px;
+    height: 134px;
+    left: 96px;
+    top: 377px;
+}
+
+.menu__item{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 12px;
+}
+.menu__item a{
+    margin: 0 32px;
+    left: 29.55px;
+    top: calc(50% - 23px/2);
+}

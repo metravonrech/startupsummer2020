@@ -1,0 +1,55 @@
+@import 'reset.css';
+@import 'sidebar.css';
+@import 'menu.css';
+
+body{
+    font-family: 'Source Sans Pro', 'Roboto', sans-serif;
+    position: relative;
+    width: calc(100vw - 15px);
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.main{
+    position: absolute;
+    right: 30px;
+    height: 931px;
+    left: 367px;
+    top: 20px;
+    background: #EDEDED;
+    border-radius: 50px;
+}
+
+.main__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(5, 175px);
+    grid-template-rows: repeat(4, 175px);
+    grid-gap: 20px;
+    /*grid-auto-flow: dense;*/
+}
+
+.main_container_item{
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.main_container_item span{
+    margin-left: 10px;
+}
+
+.main h2{
+    position: absolute;
+    width: 672px;
+    height: 30px;
+    left: 0;
+    top: -40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333
+}
